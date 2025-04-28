@@ -1,0 +1,56 @@
+body {
+    display:block;
+    margin: 0 auto;
+    width: 575px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #1B244A;
+    padding: 68px 63px;
+}
+#home-score, .plus-score button, #guest-score { 
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+#home {
+    margin-right: 50px;
+}
+#guest {
+    margin-left: 50px;
+}
+#home h3, #guest h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0px
+}
+
+#home-score, #guest-score {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    background-color: #080001;
+    width: 155px;
+    border-radius: 5px;
+    font-size: 90px;
+    text-align: center;
+    color: #F94F6D;
+}
+.plus-score {
+    display: flex;
+justify-content: space-around;
+}
+.plus-score button {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #9AABD8;
+    border-radius: 3px;
+    color: #9AABD8;
+    background-color: transparent;
+    cursor: pointer;
+}

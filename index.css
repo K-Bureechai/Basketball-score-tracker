@@ -1,11 +1,11 @@
 body {
-    display:block;
+    display: block;
     margin: 0 auto;
-    width: 575px;
-    
+    width: 875px;
+
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-around;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,22 +13,32 @@ body {
     background-color: #1B244A;
     padding: 68px 63px;
 }
-#home-score, .plus-score button, #guest-score { 
+
+#home-score,
+.plus-score button,
+#guest-score,
+#reset-home,
+#reset-guest {
     font-family: 'Cursed Timer ULiL', sans-serif;
 }
+
 #home {
     margin-right: 50px;
 }
+
 #guest {
     margin-left: 50px;
 }
-#home h3, #guest h3 {
+
+#home h3,
+#guest h3 {
     text-align: center;
     font-size: 40px;
     margin: 0px
 }
 
-#home-score, #guest-score {
+#home-score,
+#guest-score {
     display: block;
     margin: 0 auto;
     margin-top: 20px;
@@ -41,10 +51,12 @@ body {
     text-align: center;
     color: #F94F6D;
 }
+
 .plus-score {
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
 }
+
 .plus-score button {
     padding: 10px;
     margin: 5px;
@@ -52,5 +64,17 @@ justify-content: space-around;
     border-radius: 3px;
     color: #9AABD8;
     background-color: transparent;
+    cursor: pointer;
+}
+
+#reset-home,
+#reset-guest {
+    display: block;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 3px;
+    border: 0px;
+    color: #080001;
+    background-color: #9AABD8;
     cursor: pointer;
 }
